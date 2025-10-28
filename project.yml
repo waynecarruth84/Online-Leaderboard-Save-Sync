@@ -1,0 +1,46 @@
+name: Online Leaderboard + Save Sync Roadmap
+description: A 2-week project plan for a Go + Java leaderboard and cloud save system.
+owner: your-github-username
+public: true
+
+labels:
+  - name: backend
+    color: "#1f77b4"
+    description: Go API-related work
+  - name: client
+    color: "#2ca02c"
+    description: Java client or frontend work
+  - name: infra
+    color: "#9467bd"
+    description: CI/CD, hosting, or environment setup
+  - name: docs
+    color: "#ff7f0e"
+    description: Documentation and README updates
+  - name: enhancement
+    color: "#17becf"
+    description: Feature improvements or polish
+  - name: bug
+    color: "#d62728"
+    description: Bugs or issues to fix
+  - name: good first issue
+    color: "#8c564b"
+    description: Simple starter tasks
+  - name: triage
+    color: "#7f7f7f"
+    description: Issues needing classification
+
+milestones:
+  - title: Week 1 – Backend MVP
+    description: Core API complete and tested locally
+    due_on: 2025-11-04
+  - title: Week 2 – Client + Deployment
+    description: Java client demo, deployment, and docs
+    due_on: 2025-11-11
+  - title: Stretch Goals
+    description: Extra features like JWT, WebSocket, or Unity integration
+
+columns:
+  - name: 🧩 To Do
+  - name: ⚙️ In Progress
+  - name: 🧪 Testing
+  - name: ✅ Done
